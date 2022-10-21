@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    float: center;
+    width: 1920;
+    height: auto;
+
+}
+
+.backimage{
+    background-image: url("Static/background2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: auto;
+    opacity: 0.8;
+    
+}
+
+.image-fit {
+    
+    background-color: rgb(0, 0, 0, 0.9);
+    background-image: url("/First-House-project/Static/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 1920px 300px;
+    background-position: center;
+    width: 1920px;
+    margin-left: -450px;
+    opacity: 1;
+}
+
+span {
+    margin: 30px;
+}
+
+span:hover {
+    color: blue;
+}
+
+.middle {
+    margin-left: 450px;
+    padding: 5px;
+
+}
+
+
+.heading {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 50px;
+    width: 1000px;
+    margin-left: 500px;
+    animation: moving 2s linear infinite;
+}
+
+
+.navpad {
+    margin-top: 50px;
+    width: 1000px;
+    margin: auto;
+
+
+}
+
+.fontsize {
+    font-size: 30px;
+
+
+}
+
+
+footer {
+    background-color: rgb(109, 21, 21l, 0.5);
+    position: relative;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin-top: 700px;
+    margin-left: 325px;
+    width:350px;
+    height:auto;
+}
+
+body {
+    background-color: black;
+    width: 1000px;
+    margin: auto;
+}
+
+
+article {
+    width: 50%;
+    color: white;
+    font-size: x-large;
+    padding-left: 15px;
+    margin-left: 450px;
+    width: 1000px;
+    margin: auto;
+
+
+}
+
+
+.box {
+    display: block;
+    margin-left: -100px;
+    text-align: center;
+    border: 3px dotted rgb(255, 251, 0);
+    height: 800px;
+    width: 1080px;
+}
+
+.centerdiv {
+    text-align: center;
+    width: 960px;
+    height: auto;
+
+}
+
+
+aside {
+    position:absolute;
+    width: 500px;
+    height: 699px;
+    margin-top: 160px;
+    margin-left: 1000px;
+    background-color: rgba(255, 255, 255, 0.05);
+    color:white;
+}
+
+
+.catego{
+    text-align: left;
+    font-size: 15px;
+}
+
+
+.imgleft {
+    display: block;
+    margin-left: -50px;
+    width: 280px;
+    height: 350px;
+}
+
+.anime_info_body_bg {
+    float: left;
+    width: 100%;
+    
+}
+
+
+.titlecen{
+    margin-left: -340px;
+    margin-top: -110px;
+    
+}
+
+.titlecen2{
+    margin-left: 280px;
+    margin-top: -10px;
+}
+
+
+.episodemove{
+   margin-top: 120px;
+   margin-left: -15px;
+}
+
+
+
+
+.greencolor{
+    color:green;
+}
+
+
+.blue:hover{
+    background-color:blue;
+}
+
+
+
+
+@keyframes moving {
+    0%{
+        transform: skewX(0deg);
+    }
+    
+    25% {
+        transform: skewX(15deg);
+    }
+
+    50%{
+        transform: skewX(0deg);
+    }
+
+    75%{
+        transform: skewX(-20deg);
+    }
+
+    100%{
+        transform: skewX(0deg);
+    }
+
+
+
+}
+
+
+.titlecen4{
+    margin-left: -160px;
+    margin-top: -100px;
+}
+
+.episodemove2{
+    scale: 70%;
+    margin-top: 50px;
+    margin-left: 40px;
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+ }

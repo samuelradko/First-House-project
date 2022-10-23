@@ -5,7 +5,7 @@
 
 body {
     float: center;
-    width: 1920;
+    width: 2560px;
     height: auto;
 
 }
@@ -14,6 +14,7 @@ body {
     background-image: url("Static/background2.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    margin-left: 1250px;
     z-index: auto;
     opacity: 0.8;
     
@@ -24,10 +25,10 @@ body {
     background-color: rgb(0, 0, 0, 0.9);
     background-image: url("/First-House-project/Static/background.jpg");
     background-repeat: no-repeat;
-    background-size: 1920px 300px;
+    background-size: 2560px 300px;
     background-position: center;
-    width: 1920px;
-    margin-left: -450px;
+    width: 2560px;
+    margin-left: -808px;
     opacity: 1;
 }
 
@@ -52,7 +53,7 @@ span:hover {
     font-size: 25px;
     padding-top: 50px;
     width: 1000px;
-    margin-left: 500px;
+    margin-left: 800px;
     animation: moving 2s linear infinite;
 }
 
@@ -109,8 +110,8 @@ article {
     margin-left: -100px;
     text-align: center;
     border: 3px dotted rgb(255, 251, 0);
-    height: 800px;
-    width: 1080px;
+    height: 885px;
+    width: 1350px;
 }
 
 .centerdiv {
@@ -141,6 +142,7 @@ aside {
 .imgleft {
     display: block;
     margin-left: -50px;
+    margin-top: 10px;
     width: 280px;
     height: 350px;
 }
@@ -153,7 +155,7 @@ aside {
 
 
 .titlecen{
-    margin-left: -340px;
+    margin-left: -605px;
     margin-top: -110px;
     
 }
@@ -165,7 +167,7 @@ aside {
 
 
 .episodemove{
-   margin-top: 120px;
+   margin-top: 95px;
    margin-left: -15px;
 }
 
@@ -211,15 +213,23 @@ aside {
 
 
 .titlecen4{
-    margin-left: -160px;
+    margin-left: -430px;
     margin-top: -100px;
 }
 
 .episodemove2{
     scale: 70%;
-    margin-top: 50px;
+    margin-top: 250px;
     margin-left: 40px;
     display:flex;
     flex-direction:column;
     flex-wrap: wrap;
+    scale:0.8
  }
+
+ .move{
+    scale:1.1;
+    margin-top:50px;
+ }
+
+

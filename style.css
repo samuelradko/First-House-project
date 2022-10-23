@@ -23,7 +23,7 @@ body {
 .image-fit {
     
     background-color: rgb(0, 0, 0, 0.9);
-    background-image: url("/First-House-project/Static/background.jpg");
+    background-image: url("Static/background.jpg");
     background-repeat: no-repeat;
     background-size: 2560px 300px;
     background-position: center;

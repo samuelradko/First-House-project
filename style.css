@@ -1,33 +1,39 @@
+@media only screen and(max-width: 1920px) {
+    body {
+        max-width: auto;
+    }
+    
+}
+
+
+
 * {
     box-sizing: border-box;
-    
+
 }
 
 body {
     float: center;
-    width: 2560px;
     height: auto;
 
 }
 
-.backimage{
+.backimage {
     background-image: url("Static/background2.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    margin-left: 1250px;
-    z-index: auto;
-    opacity: 0.8;
-    
+    z-index: 1;
+    width:20%;
+    height: 888px;
+
 }
 
 .image-fit {
-    
+
     background-color: rgb(0, 0, 0, 0.9);
     background-image: url("Static/background.jpg");
     background-repeat: no-repeat;
-    background-size: 2560px 300px;
+    background-size: 5000px 300px;
     background-position: center;
-    width: 2560px;
+    width: auto;
     margin-left: -808px;
     opacity: 1;
 }
@@ -41,7 +47,7 @@ span:hover {
 }
 
 .middle {
-    margin-left: 450px;
+    margin-left: 25%;
     padding: 5px;
 
 }
@@ -52,7 +58,7 @@ span:hover {
     text-align: center;
     font-size: 25px;
     padding-top: 50px;
-    width: 1000px;
+    width: auto;
     margin-left: 800px;
     animation: moving 2s linear infinite;
 }
@@ -60,7 +66,7 @@ span:hover {
 
 .navpad {
     margin-top: 50px;
-    width: 1000px;
+    width: auto;
     margin: auto;
 
 
@@ -74,31 +80,28 @@ span:hover {
 
 
 footer {
+    display: block;
     background-color: rgb(109, 21, 21l, 0.5);
     position: relative;
-    padding: 10px;
     text-align: center;
     color: white;
-    margin-top: 700px;
-    margin-left: 325px;
-    width:350px;
-    height:auto;
+    height: auto;
 }
 
 body {
     background-color: black;
-    width: 1000px;
+    width: auto;
     margin: auto;
 }
 
 
 article {
-    width: 50%;
+    width: auto;
     color: white;
     font-size: x-large;
     padding-left: 15px;
     margin-left: 450px;
-    width: 1000px;
+    width: auto;
     margin: auto;
 
 
@@ -106,34 +109,35 @@ article {
 
 
 .box {
-    display: block;
-    margin-left: -100px;
+    position: absolute;
+    justify-content: left;
     text-align: center;
     border: 3px dotted rgb(255, 251, 0);
+    width: 80%;
     height: 885px;
-    width: 1350px;
+
 }
 
 .centerdiv {
     text-align: center;
-    width: 960px;
+    width: auto;
     height: auto;
 
 }
 
 
 aside {
-    position:absolute;
-    width: 500px;
-    height: 699px;
-    margin-top: 160px;
-    margin-left: 1000px;
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    padding: 50px;
     background-color: rgba(255, 255, 255, 0.05);
-    color:white;
+    color: white;
 }
 
 
-.catego{
+.catego {
     text-align: left;
     font-size: 15px;
 }
@@ -143,67 +147,67 @@ aside {
     display: block;
     margin-left: -50px;
     margin-top: 10px;
-    width: 280px;
     height: 350px;
 }
 
 .anime_info_body_bg {
     float: left;
     width: 100%;
-    
+
 }
 
 
-.titlecen{
+.titlecen {
     margin-left: -605px;
     margin-top: -110px;
-    
+
 }
 
-.titlecen2{
+.titlecen2 {
     margin-left: 280px;
     margin-top: -10px;
 }
 
 
-.episodemove{
-   margin-top: 95px;
-   margin-left: -15px;
+.episodemove {
+    margin-top: 15px;
+    justify-content: center;
+    
 }
 
 
 
 
-.greencolor{
-    color:green;
+.greencolor {
+    color: green;
 }
 
 
-.blue:hover{
-    background-color:blue;
+.blue:hover {
+    background-color: blue;
 }
 
 
 
 
 @keyframes moving {
-    0%{
+    0% {
         transform: skewX(0deg);
     }
-    
+
     25% {
         transform: skewX(15deg);
     }
 
-    50%{
+    50% {
         transform: skewX(0deg);
     }
 
-    75%{
+    75% {
         transform: skewX(-20deg);
     }
 
-    100%{
+    100% {
         transform: skewX(0deg);
     }
 
@@ -212,24 +216,27 @@ aside {
 }
 
 
-.titlecen4{
+.titlecen4 {
     margin-left: -430px;
     margin-top: -100px;
 }
 
-.episodemove2{
-    scale: 70%;
-    margin-top: 250px;
-    margin-left: 40px;
-    display:flex;
-    flex-direction:column;
-    flex-wrap: wrap;
-    scale:0.8
- }
+.episodemove2 {
+    margin-top: 260px;
+    justify-content: center;
+}
 
- .move{
-    scale:1.1;
-    margin-top:50px;
- }
+.move {
+    scale: 1.1;
+    margin: auto;
+}
 
+.episodemove3 {
+    margin-top: 220px;
+    justify-content: center;
+}
 
+.mover{
+    
+    scale:0.9;
+}

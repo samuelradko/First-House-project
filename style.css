@@ -1,8 +1,9 @@
-@media only screen and(max-width: 1920px) {
+@media only screen and (max-width: 1920px) {
     body {
-        max-width: auto;
+        width: 100vw;
+        height: 100vh;
     }
-    
+
 }
 
 
@@ -12,17 +13,13 @@
 
 }
 
-body {
-    float: center;
-    height: auto;
 
-}
 
 .backimage {
-    background-image: url("Static/background2.jpg");
+    background-color: black;
     z-index: 1;
-    width:20%;
-    height: 888px;
+    width: 20%;
+    height: auto;
 
 }
 
@@ -90,8 +87,9 @@ footer {
 
 body {
     background-color: black;
-    width: auto;
+    width: 100vw;
     margin: auto;
+    overflow-x: hidden
 }
 
 
@@ -172,7 +170,7 @@ aside {
 .episodemove {
     margin-top: 15px;
     justify-content: center;
-    
+
 }
 
 
@@ -236,7 +234,17 @@ aside {
     justify-content: center;
 }
 
-.mover{
+.mover {
+
+    scale: 0.9;
+}
+
+.newsfeed {
+    scale: 1;
+    display: flex;
+    z-index: auto;
     
-    scale:0.9;
+
+
+
 }
